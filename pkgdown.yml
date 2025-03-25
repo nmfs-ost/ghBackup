@@ -1,8 +1,7 @@
-pandoc: 2.19.2
-pkgdown: 2.0.6
+pandoc: 3.1.11
+pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   back-up-github-repositories: back-up-github-repositories.html
-  check_gh_size: check_gh_size.html
-last_built: 2022-10-31T19:17Z
-
+  check-gh-size: check-gh-size.html
+last_built: 2025-03-25T14:00Z
