@@ -2,7 +2,11 @@
 title: "Back up GitHub repositories"
 author: "Bai Li"
 date: "9/26/2022"
-output: html_document
+output: github_document
+vignette: >
+  %\VignetteIndexEntry{Back up GitHub repositories}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 This R package helps back up GitHub repositories from an organization using R. To install the package from GitHub:
 
 ```R
-remotes::install_github("Bai-Li-NOAA/ghBackup")
+remotes::install_github("nmfs-ost/ghBackup")
 ```
 
 You can read the help file with
@@ -67,7 +71,7 @@ googledrive::drive_put(
 )
 ```
 
-The full R script example can be found here: [inst/extdata/examples/example_back_up_gh.R](https://github.com/Bai-Li-NOAA/ghBackup/blob/main/inst/extdata/examples/example_back_up_gh.R).
+The full R script example can be found here: [inst/extdata/examples/example_back_up_gh.R](https://github.com/nmfs-ost/ghBackup/blob/main/inst/extdata/examples/example_back_up_gh.R).
 
 ## Schedule the run 
 
@@ -94,7 +98,7 @@ taskscheduleR::taskscheduler_create(
 )
 ```
 
-The full R script example can be found here: [inst/extdata/examples/example_task_schedule.R](https://github.com/Bai-Li-NOAA/ghBackup/blob/main/inst/extdata/examples/example_task_schedule.R).
+The full R script example can be found here: [inst/extdata/examples/example_task_schedule.R](https://github.com/nmfs-ost/ghBackup/blob/main/inst/extdata/examples/example_task_schedule.R).
 
 You might be interested in [cronR package](https://github.com/bnosac/cronR) if you would like to automate R workflow on Linux/Unix. 
 

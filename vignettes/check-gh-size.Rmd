@@ -2,7 +2,11 @@
 title: "Check GH size"
 author: "Giselle Schmitz"
 date: "6/15/2022"
-output: html_document
+output: github_document
+vignette: >
+  %\VignetteIndexEntry{Check GH size}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
@@ -18,9 +22,9 @@ This package checks github repo size as a means of avoiding errors or oversized 
 Install package using the code below:
 
 ```{r setup_pkgs, eval= FALSE}
-#devtools::load_all()
+
 install.packages("remotes")
-remotes::install_github("Bai-Li-NOAA/ghBackup")
+remotes::install_github("nmfs-ost/ghBackup")
 library(ghBackup)
 ```
 

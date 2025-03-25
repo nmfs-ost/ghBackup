@@ -19,12 +19,12 @@ navbar:
     github:
       text: Source Code
       icon: fab fa-github fa-lg
-      href: https://github.com/Bai-Li-NOAA/ghBackup/
+      href: https://github.com/nmfs-ost/ghBackup/
 
     issue:
       text: Issues
       icon: fas fa-question-circle fa-lg
-      href: https://github.com/Bai-Li-NOAA/ghBackup/issues/
+      href: https://github.com/nmfs-ost/ghBackup/issues/
 
     articles:
       text: Vignettes
