@@ -11,7 +11,7 @@ pkg_to_install <- required_pkg[!(required_pkg %in%
 if (length(pkg_to_install)) install.packages(pkg_to_install)
 lapply(required_pkg, library, character.only = TRUE)
 
-remotes::install_github("Bai-Li-NOAA/ghBackup")
+remotes::install_github("nmfs-ost/ghBackup")
 library(ghBackup)
 
 # Back up GitHub repositories -------------------------------------

@@ -4,13 +4,13 @@ ghBackup
 ghBackup is an R package that backs up your GitHub repositories. It uses 
 a GitHub personal access token to clone repositories from a GitHub 
 organization and save the files in the destination directory.
-[Simple examples](https://bai-li-noaa.github.io/ghBackup/articles/) on how to back up repositories and upload backup files 
+[Simple examples](https://nmfs-ost.github.io/ghBackup/articles/) on how to back up repositories and upload backup files 
 to a Google Drive folder on a schedule are provided. 
 
 # Installation
 
 ```r
-remotes::install_github("Bai-Li-NOAA/ghBackup")
+remotes::install_github("nmfs-ost/ghBackup")
 ```
 # Usage
  
@@ -34,7 +34,7 @@ ghBackup::back_up_gh_orgs(
 # Need Help?
 
 Get questions answered in 
-[issues](https://github.com/Bai-Li-NOAA/ghBackup/issues) or submit bug 
+[issues](https://github.com/nmfs-ost/ghBackup/issues) or submit bug 
 reports and feature requests to issues. 
 
 # Disclaimer

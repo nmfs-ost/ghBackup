@@ -15,7 +15,7 @@
 dir_size <- function(path) {
 
   # error message class
-  if (class(path) != "character") stop("class of the path is not character")
+  if (!inherits(path, "character")) stop("class of the path is not character")
   files <- list.files(path, full.names = T, recursive = T)
 
   if (length(files) == 0) {
